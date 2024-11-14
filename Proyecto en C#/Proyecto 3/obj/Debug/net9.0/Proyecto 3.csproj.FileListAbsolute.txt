@@ -1,0 +1,14 @@
+D:\Proyecto en C#\Proyecto 3\bin\Debug\net9.0\Proyecto 3.exe
+D:\Proyecto en C#\Proyecto 3\bin\Debug\net9.0\Proyecto 3.deps.json
+D:\Proyecto en C#\Proyecto 3\bin\Debug\net9.0\Proyecto 3.runtimeconfig.json
+D:\Proyecto en C#\Proyecto 3\bin\Debug\net9.0\Proyecto 3.dll
+D:\Proyecto en C#\Proyecto 3\bin\Debug\net9.0\Proyecto 3.pdb
+D:\Proyecto en C#\Proyecto 3\obj\Debug\net9.0\Proyecto 3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyecto en C#\Proyecto 3\obj\Debug\net9.0\Proyecto 3.AssemblyInfoInputs.cache
+D:\Proyecto en C#\Proyecto 3\obj\Debug\net9.0\Proyecto 3.AssemblyInfo.cs
+D:\Proyecto en C#\Proyecto 3\obj\Debug\net9.0\Proyecto 3.csproj.CoreCompileInputs.cache
+D:\Proyecto en C#\Proyecto 3\obj\Debug\net9.0\Proyecto 3.dll
+D:\Proyecto en C#\Proyecto 3\obj\Debug\net9.0\refint\Proyecto 3.dll
+D:\Proyecto en C#\Proyecto 3\obj\Debug\net9.0\Proyecto 3.pdb
+D:\Proyecto en C#\Proyecto 3\obj\Debug\net9.0\Proyecto 3.genruntimeconfig.cache
+D:\Proyecto en C#\Proyecto 3\obj\Debug\net9.0\ref\Proyecto 3.dll
