@@ -1,0 +1,14 @@
+D:\Proyecto en C#\Base d Datos\bin\Debug\net9.0\Base d Datos.exe
+D:\Proyecto en C#\Base d Datos\bin\Debug\net9.0\Base d Datos.deps.json
+D:\Proyecto en C#\Base d Datos\bin\Debug\net9.0\Base d Datos.runtimeconfig.json
+D:\Proyecto en C#\Base d Datos\bin\Debug\net9.0\Base d Datos.dll
+D:\Proyecto en C#\Base d Datos\bin\Debug\net9.0\Base d Datos.pdb
+D:\Proyecto en C#\Base d Datos\obj\Debug\net9.0\Base d Datos.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyecto en C#\Base d Datos\obj\Debug\net9.0\Base d Datos.AssemblyInfoInputs.cache
+D:\Proyecto en C#\Base d Datos\obj\Debug\net9.0\Base d Datos.AssemblyInfo.cs
+D:\Proyecto en C#\Base d Datos\obj\Debug\net9.0\Base d Datos.csproj.CoreCompileInputs.cache
+D:\Proyecto en C#\Base d Datos\obj\Debug\net9.0\Base d Datos.dll
+D:\Proyecto en C#\Base d Datos\obj\Debug\net9.0\refint\Base d Datos.dll
+D:\Proyecto en C#\Base d Datos\obj\Debug\net9.0\Base d Datos.pdb
+D:\Proyecto en C#\Base d Datos\obj\Debug\net9.0\Base d Datos.genruntimeconfig.cache
+D:\Proyecto en C#\Base d Datos\obj\Debug\net9.0\ref\Base d Datos.dll
