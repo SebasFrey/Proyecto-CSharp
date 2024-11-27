@@ -1,0 +1,22 @@
+Fecha de registro: 27/11/2024 2:47:48 p. m.
+Marca GPS: Butifarrero
+Modelo GPS: SaliCarne
+IMEI: 1234567890
+Proveedor de SIM: Oscuro
+Número de SIM: 1234567890
+Día de Recarga: Hoy o ¿ayer?
+Tipo de Vehículo: Carremula
+Placa del Vehículo: CETR32
+Marca del Vehículo: Burrito Sabanero
+-----------------------------------
+Fecha de registro: 27/11/2024 2:49:05 p. m.
+Marca GPS: WanWayTech
+Modelo GPS: GS900
+IMEI: 147852369
+Proveedor de SIM: Claro
+Número de SIM: 123456
+Día de Recarga: Ayer
+Tipo de Vehículo: Moto
+Placa del Vehículo: ASF54S
+Marca del Vehículo: AKT
+-----------------------------------
