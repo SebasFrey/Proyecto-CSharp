@@ -1,0 +1,16 @@
+Fecha de registro: 27/11/2024 12:47:34 p. m.
+Marca: Teltonika
+Modelo: el que sea
+IMEI: 1234536689
+Proveedor de SIM: el que sea
+Número de SIM: 3242134342
+Día de Recarga: 
+-----------------------------------
+Fecha de registro: 27/11/2024 12:47:46 p. m.
+Marca: gh
+Modelo: g
+IMEI: g
+Proveedor de SIM: g
+Número de SIM: g
+Día de Recarga: g
+-----------------------------------
