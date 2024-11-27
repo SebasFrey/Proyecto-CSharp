@@ -7,78 +7,152 @@ namespace Program
     {
         static void Main(string[] args)
         {
-            string continuar;
+            bool continuar = true;
 
+            while (continuar)
+            {
+                MostrarMenu();
+
+                string opcion = Console.ReadLine();
+
+                switch (opcion)
+                {
+                    case "1":
+                        RegistrarDatos();
+                        break;
+                    case "2":
+                        MostrarRegistros();
+                        break;
+                    case "3":
+                        BuscarRegistro();
+                        break;
+                    case "4":
+                        continuar = false;
+                        Console.WriteLine("Saliendo del programa. ¡Hasta luego!");
+                        break;
+                    default:
+                        Console.WriteLine("Opción no válida. Inténtalo de nuevo.");
+                        break;
+                }
+            }
+        }
+
+        static void MostrarMenu()
+        {
+            Console.WriteLine("\n=== Menú Principal ===");
+            Console.WriteLine("1. Registrar nuevo GPS");
+            Console.WriteLine("2. Mostrar registros guardados");
+            Console.WriteLine("3. Buscar registro por IMEI o Placa");
+            Console.WriteLine("4. Salir");
+            Console.WriteLine("=======================");
+            Console.Write("Selecciona una opción: ");
+        }
+
+        static void RegistrarDatos()
+        {
+            string marca = PedirDato("Ingresar marca del GPS:");
+            string modelo = PedirDato("Ingresar modelo del GPS:");
+            string IMEI = PedirDatoNumerico("Ingresar IMEI del GPS (15 dígitos):", 15);
+            string proveedorSim = PedirDato("Ingresar proveedor de la SIM Card:");
+            string numeroSim = PedirDatoNumerico("Ingresar número de la SIM Card (10 dígitos):", 10);
+            string tipoVehiculo = PedirDato("Ingresar tipo de vehículo:");
+            string placaVehiculo = PedirDato("Ingresar placa del vehículo:");
+
+            string registro = $"Fecha: {DateTime.Now}\nMarca GPS: {marca}\nModelo GPS: {modelo}\nIMEI: {IMEI}\n" +
+                              $"Proveedor SIM: {proveedorSim}\nNúmero SIM: {numeroSim}\nTipo Vehículo: {tipoVehiculo}\n" +
+                              $"Placa Vehículo: {placaVehiculo}\n-----------------------------------";
+
+            GuardarDatosEnArchivo(registro);
+            Console.WriteLine("Datos guardados correctamente.");
+        }
+
+        static string PedirDato(string mensaje)
+        {
+            string dato;
             do
             {
-                // Recopilación de datos del GPS
-                Console.WriteLine("Ingresar marca del GPS:");
-                string marca = Console.ReadLine();
-
-                Console.WriteLine("Ingresar modelo del GPS:");
-                string modelo = Console.ReadLine();
-
-                Console.WriteLine("Ingresar IMEI del GPS:");
-                string IMEI = Console.ReadLine();
-
-                Console.WriteLine("Ingresar proveedor de la SIM Card:");
-                string proveedorSim = Console.ReadLine();
-
-                Console.WriteLine("Ingresar número de la SIM Card:");
-                string numeroSim = Console.ReadLine();
-
-                Console.WriteLine("Ingresar día de recarga de la SIM Card:");
-                string recargaSim = Console.ReadLine();
-
-                // Nuevos campos para la información del activo
-                Console.WriteLine("Ingresar tipo de vehículo (moto, carro, etc.):");
-                string tipoVehiculo = Console.ReadLine();
-
-                Console.WriteLine("Ingresar placa del vehículo:");
-                string placaVehiculo = Console.ReadLine();
-
-                Console.WriteLine("Ingresar marca del vehículo:");
-                string marcaVehiculo = Console.ReadLine();
-
-                // Guardar los datos en el archivo
-                using (StreamWriter writer = new StreamWriter("GPSInstalados.txt", true))
+                Console.WriteLine(mensaje);
+                dato = Console.ReadLine();
+                if (string.IsNullOrWhiteSpace(dato))
                 {
-                    writer.WriteLine("Fecha de registro: " + DateTime.Now);
-                    writer.WriteLine($"Marca GPS: {marca}");
-                    writer.WriteLine($"Modelo GPS: {modelo}");
-                    writer.WriteLine($"IMEI: {IMEI}");
-                    writer.WriteLine($"Proveedor de SIM: {proveedorSim}");
-                    writer.WriteLine($"Número de SIM: {numeroSim}");
-                    writer.WriteLine($"Día de Recarga: {recargaSim}");
-                    writer.WriteLine($"Tipo de Vehículo: {tipoVehiculo}");
-                    writer.WriteLine($"Placa del Vehículo: {placaVehiculo}");
-                    writer.WriteLine($"Marca del Vehículo: {marcaVehiculo}");
-                    writer.WriteLine("-----------------------------------");
+                    Console.WriteLine("Este campo no puede estar vacío. Inténtalo de nuevo.");
+                }
+            } while (string.IsNullOrWhiteSpace(dato));
+
+            return dato;
+        }
+
+        static string PedirDatoNumerico(string mensaje, int longitud)
+        {
+            string dato;
+            do
+            {
+                Console.WriteLine(mensaje);
+                dato = Console.ReadLine();
+                if (!long.TryParse(dato, out _) || dato.Length != longitud)
+                {
+                    Console.WriteLine($"Por favor, ingresa un valor numérico válido de {longitud} dígitos.");
+                    dato = null;
+                }
+            } while (string.IsNullOrWhiteSpace(dato));
+
+            return dato;
+        }
+
+        static void GuardarDatosEnArchivo(string datos)
+        {
+            using (StreamWriter writer = new StreamWriter("GPSInstalados.txt", true))
+            {
+                writer.WriteLine(datos);
+            }
+        }
+
+        static void MostrarRegistros()
+        {
+            string archivo = "GPSInstalados.txt";
+
+            if (File.Exists(archivo))
+            {
+                string contenido = File.ReadAllText(archivo);
+                Console.WriteLine("\n=== Registros Guardados ===");
+                Console.WriteLine(contenido);
+            }
+            else
+            {
+                Console.WriteLine("No hay registros guardados.");
+            }
+        }
+
+        static void BuscarRegistro()
+        {
+            Console.Write("Ingresa el IMEI o Placa para buscar: ");
+            string criterio = Console.ReadLine();
+
+            string archivo = "GPSInstalados.txt";
+
+            if (File.Exists(archivo))
+            {
+                string[] lineas = File.ReadAllLines(archivo);
+                bool encontrado = false;
+
+                foreach (string linea in lineas)
+                {
+                    if (linea.Contains(criterio))
+                    {
+                        Console.WriteLine(linea);
+                        encontrado = true;
+                    }
                 }
 
-                // Mostrar resumen de datos ingresados
-                Console.WriteLine("\nDatos guardados en GPSInstalados.txt");
-                Console.WriteLine("Resumen de datos ingresados:");
-                Console.WriteLine($"Marca GPS: {marca}");
-                Console.WriteLine($"Modelo GPS: {modelo}");
-                Console.WriteLine($"IMEI: {IMEI}");
-                Console.WriteLine($"Proveedor de SIM: {proveedorSim}");
-                Console.WriteLine($"Número de SIM: {numeroSim}");
-                Console.WriteLine($"Día de Recarga: {recargaSim}");
-                Console.WriteLine($"Tipo de Vehículo: {tipoVehiculo}");
-                Console.WriteLine($"Placa del Vehículo: {placaVehiculo}");
-                Console.WriteLine($"Marca del Vehículo: {marcaVehiculo}");
-
-                // Preguntar al usuario si quiere ingresar otro registro
-                Console.WriteLine("\n¿Deseas ingresar otro registro? (s/n)");
-                continuar = Console.ReadLine().ToLower();
-
-            } while (continuar == "s");
-
-            Console.WriteLine("Programa finalizado. ¡Hasta luego!");
+                if (!encontrado)
+                {
+                    Console.WriteLine("No se encontró ningún registro con el criterio ingresado.");
+                }
+            }
+            else
+            {
+                Console.WriteLine("No hay registros guardados.");
+            }
         }
     }
 }
-
-
-
