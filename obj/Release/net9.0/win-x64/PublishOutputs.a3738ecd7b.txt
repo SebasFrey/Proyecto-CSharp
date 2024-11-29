@@ -1,2 +1,0 @@
-D:\Proyecto en C#\Base d Datos\bin\Release\net9.0\win-x64\publish\Base d Datos.pdb
-D:\Proyecto en C#\Base d Datos\bin\Release\net9.0\win-x64\publish\Base d Datos.exe
