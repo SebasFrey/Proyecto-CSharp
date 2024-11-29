@@ -16,3 +16,21 @@ Número SIM: 3028631418
 Tipo Vehículo: Moto
 Placa Vehículo: MAR777
 -----------------------------------
+Fecha: 29/11/2024 11:12:07 a. m.
+Marca GPS: Suntech
+Modelo GPS: ST8300
+IMEI: 123654789015963
+Proveedor SIM: Tigo
+Número SIM: 1236547890
+Tipo Vehículo: Motocarro
+Placa Vehículo: 123EDD
+-----------------------------------
+Fecha: 29/11/2024 11:17:44 a. m.
+Marca GPS: Queclink
+Modelo GPS: GV58LAU
+IMEI: 133654789
+Proveedor SIM: Virgin
+Número SIM: 123455663
+Tipo Vehículo: Burro
+Placa Vehículo: HDM123
+-----------------------------------

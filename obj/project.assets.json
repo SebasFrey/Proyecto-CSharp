@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Centro de Control I\\Desktop\\Ruta De Aprendizaje\\Proyecto C#\\Proyecto DB\\Base d Datos.csproj",
-      "projectName": "Base d Datos",
-      "projectPath": "C:\\Users\\Centro de Control I\\Desktop\\Ruta De Aprendizaje\\Proyecto C#\\Proyecto DB\\Base d Datos.csproj",
+      "projectUniqueName": "C:\\Users\\Centro de Control I\\Desktop\\Ruta De Aprendizaje\\Proyecto C#\\Proyecto DB\\Proyecto DB.csproj",
+      "projectName": "Proyecto DB",
+      "projectPath": "C:\\Users\\Centro de Control I\\Desktop\\Ruta De Aprendizaje\\Proyecto C#\\Proyecto DB\\Proyecto DB.csproj",
       "packagesPath": "C:\\Users\\Centro de Control I\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Centro de Control I\\Desktop\\Ruta De Aprendizaje\\Proyecto C#\\Proyecto DB\\obj\\",
       "projectStyle": "PackageReference",
