@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Base d Datos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93e2266d9795e46781087fe26356fcbf0f82bc0e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21aeb7e84e80f57ecdfde5752bc115f02f1e5c12")]
 [assembly: System.Reflection.AssemblyProductAttribute("Base d Datos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Base d Datos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

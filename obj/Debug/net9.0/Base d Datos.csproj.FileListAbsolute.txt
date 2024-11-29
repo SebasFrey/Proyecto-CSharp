@@ -27,3 +27,33 @@ C:\Users\Centro de Control I\Desktop\Ruta De Aprendizaje\Proyecto C#\Base d Dato
 C:\Users\Centro de Control I\Desktop\Ruta De Aprendizaje\Proyecto C#\Base d Datos\obj\Debug\net9.0\Base d Datos.pdb
 C:\Users\Centro de Control I\Desktop\Ruta De Aprendizaje\Proyecto C#\Base d Datos\obj\Debug\net9.0\Base d Datos.genruntimeconfig.cache
 C:\Users\Centro de Control I\Desktop\Ruta De Aprendizaje\Proyecto C#\Base d Datos\obj\Debug\net9.0\ref\Base d Datos.dll
+D:\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\bin\Debug\net9.0\Base d Datos.exe
+D:\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\bin\Debug\net9.0\Base d Datos.deps.json
+D:\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\bin\Debug\net9.0\Base d Datos.runtimeconfig.json
+D:\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\bin\Debug\net9.0\Base d Datos.dll
+D:\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\bin\Debug\net9.0\Base d Datos.pdb
+D:\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\obj\Debug\net9.0\Base d Datos.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\obj\Debug\net9.0\Base d Datos.AssemblyInfoInputs.cache
+D:\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\obj\Debug\net9.0\Base d Datos.AssemblyInfo.cs
+D:\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\obj\Debug\net9.0\Base d Datos.csproj.CoreCompileInputs.cache
+D:\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\obj\Debug\net9.0\Base d Datos.sourcelink.json
+D:\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\obj\Debug\net9.0\Base d Datos.dll
+D:\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\obj\Debug\net9.0\refint\Base d Datos.dll
+D:\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\obj\Debug\net9.0\Base d Datos.pdb
+D:\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\obj\Debug\net9.0\Base d Datos.genruntimeconfig.cache
+D:\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\obj\Debug\net9.0\ref\Base d Datos.dll
+C:\Users\Centro de Control I\Desktop\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\bin\Debug\net9.0\Base d Datos.exe
+C:\Users\Centro de Control I\Desktop\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\bin\Debug\net9.0\Base d Datos.deps.json
+C:\Users\Centro de Control I\Desktop\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\bin\Debug\net9.0\Base d Datos.runtimeconfig.json
+C:\Users\Centro de Control I\Desktop\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\bin\Debug\net9.0\Base d Datos.dll
+C:\Users\Centro de Control I\Desktop\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\bin\Debug\net9.0\Base d Datos.pdb
+C:\Users\Centro de Control I\Desktop\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\obj\Debug\net9.0\Base d Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Centro de Control I\Desktop\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\obj\Debug\net9.0\Base d Datos.AssemblyInfoInputs.cache
+C:\Users\Centro de Control I\Desktop\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\obj\Debug\net9.0\Base d Datos.AssemblyInfo.cs
+C:\Users\Centro de Control I\Desktop\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\obj\Debug\net9.0\Base d Datos.csproj.CoreCompileInputs.cache
+C:\Users\Centro de Control I\Desktop\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\obj\Debug\net9.0\Base d Datos.sourcelink.json
+C:\Users\Centro de Control I\Desktop\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\obj\Debug\net9.0\Base d Datos.dll
+C:\Users\Centro de Control I\Desktop\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\obj\Debug\net9.0\refint\Base d Datos.dll
+C:\Users\Centro de Control I\Desktop\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\obj\Debug\net9.0\Base d Datos.pdb
+C:\Users\Centro de Control I\Desktop\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\obj\Debug\net9.0\Base d Datos.genruntimeconfig.cache
+C:\Users\Centro de Control I\Desktop\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\obj\Debug\net9.0\ref\Base d Datos.dll
