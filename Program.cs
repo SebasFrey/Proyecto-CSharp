@@ -58,9 +58,11 @@ namespace Program
             string tipoVehiculo = PedirDato("Ingresar tipo de vehículo:");
             string placaVehiculo = PedirDato("Ingresar placa del vehículo:");
 
-            string registro = $"Fecha: {DateTime.Now}\nMarca GPS: {marca}\nModelo GPS: {modelo}\nIMEI: {IMEI}\n" +
-                              $"Proveedor SIM: {proveedorSim}\nNúmero SIM: {numeroSim}\nTipo Vehículo: {tipoVehiculo}\n" +
-                              $"Placa Vehículo: {placaVehiculo}\n-----------------------------------";
+            string registro = $"Fecha: {DateTime.Now}\n" +
+                              $"Marca GPS: {marca}\nModelo GPS: {modelo}\nIMEI: {IMEI}\n" +
+                              $"Proveedor SIM: {proveedorSim}\nNúmero SIM: {numeroSim}\n" +
+                              $"Tipo Vehículo: {tipoVehiculo}\nPlaca Vehículo: {placaVehiculo}\n" +
+                              $"-----------------------------------";
 
             GuardarDatosEnArchivo(registro);
             Console.WriteLine("Datos guardados correctamente.");
@@ -72,10 +74,15 @@ namespace Program
             do
             {
                 Console.WriteLine(mensaje);
-                dato = Console.ReadLine();
+                dato = Console.ReadLine()?.Trim();
                 if (string.IsNullOrWhiteSpace(dato))
                 {
                     Console.WriteLine("Este campo no puede estar vacío. Inténtalo de nuevo.");
+                }
+                else if (!EsValido(dato))
+                {
+                    Console.WriteLine("El dato contiene caracteres no permitidos. Inténtalo de nuevo.");
+                    dato = null;
                 }
             } while (string.IsNullOrWhiteSpace(dato));
 
@@ -88,7 +95,7 @@ namespace Program
             do
             {
                 Console.WriteLine(mensaje);
-                dato = Console.ReadLine();
+                dato = Console.ReadLine()?.Trim();
                 if (!long.TryParse(dato, out _) || dato.Length != longitud)
                 {
                     Console.WriteLine($"Por favor, ingresa un valor numérico válido de {longitud} dígitos.");
@@ -126,20 +133,22 @@ namespace Program
         static void BuscarRegistro()
         {
             Console.Write("Ingresa el IMEI o Placa para buscar: ");
-            string criterio = Console.ReadLine();
+            string criterio = Console.ReadLine()?.Trim();
 
             string archivo = "GPSInstalados.txt";
 
             if (File.Exists(archivo))
             {
-                string[] lineas = File.ReadAllLines(archivo);
+                string[] lineas = File.ReadAllText(archivo).Split(new[] { "-----------------------------------" }, StringSplitOptions.RemoveEmptyEntries);
                 bool encontrado = false;
 
-                foreach (string linea in lineas)
+                foreach (string registro in lineas)
                 {
-                    if (linea.Contains(criterio))
+                    if (registro.Contains(criterio))
                     {
-                        Console.WriteLine(linea);
+                        Console.WriteLine("\n=== Registro Encontrado ===");
+                        Console.WriteLine(registro.Trim());
+                        Console.WriteLine("---------------------------");
                         encontrado = true;
                     }
                 }
@@ -153,6 +162,18 @@ namespace Program
             {
                 Console.WriteLine("No hay registros guardados.");
             }
+        }
+
+        static bool EsValido(string texto)
+        {
+            foreach (char c in texto)
+            {
+                if (!char.IsLetterOrDigit(c) && !char.IsWhiteSpace(c) && c != '-')
+                {
+                    return false;
+                }
+            }
+            return true;
         }
     }
 }
