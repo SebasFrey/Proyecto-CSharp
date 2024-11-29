@@ -31,7 +31,6 @@ namespace GPSRegistration
                 }
             }
         }
-
         static void RegistrarUbicacion()
         {
             Console.WriteLine("\n=== Registro de Nueva Ubicación ===");
@@ -42,8 +41,23 @@ namespace GPSRegistration
             Console.Write("Modelo Del GPS: ");
             string modelo = Console.ReadLine();
 
+            Console.Write("IMEI: ");
+            string imei = Console.ReadLine();
+
+            Console.Write("Proveedor De Tarjeta SIM: ");
+            string sim = Console.ReadLine();
+
+            Console.Write("Numero De La Tarjeta SIM: ");
+            string simcard = Console.ReadLine();
+
             Console.Write("Tipo De Vehiculo: ");
             string vehiculo = Console.ReadLine();
+
+            Console.Write("Placa Del Vehiculo: ");
+            string placa = Console.ReadLine();
+
+            Console.Write("Modelo Del Vehiculo");
+            string modeloVehi = Console.ReadLine();
 
             Console.WriteLine($"\nGPS registrado:");
             Console.WriteLine($"Marca: {marca}");
