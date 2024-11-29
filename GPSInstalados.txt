@@ -7,3 +7,12 @@ Número SIM: 1235467890
 Tipo Vehículo: tydkt
 Placa Vehículo: ydtjk
 -----------------------------------
+Fecha: 29/11/2024 9:10:44 a. m.
+Marca GPS: marca
+Modelo GPS: ad
+IMEI: 123456789012345
+Proveedor SIM: www
+Número SIM: 1230654789
+Tipo Vehículo: w
+Placa Vehículo: w
+-----------------------------------

@@ -1,0 +1,18 @@
+Fecha: 29/11/2024 9:15:13 a. m.
+Marca GPS: Teltonika
+Modelo GPS: FMC920
+IMEI: 123654789012365
+Proveedor SIM: WoW
+Número SIM: 3024514639
+Tipo Vehículo: Carro
+Placa Vehículo: PII314
+-----------------------------------
+Fecha: 29/11/2024 9:18:58 a. m.
+Marca GPS: WanwayTech
+Modelo GPS: GS12
+IMEI: 789654123001478
+Proveedor SIM: Claro
+Número SIM: 3028631418
+Tipo Vehículo: Moto
+Placa Vehículo: MAR777
+-----------------------------------
