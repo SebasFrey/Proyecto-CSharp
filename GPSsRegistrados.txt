@@ -1,0 +1,9 @@
+Marca: l
+Modelo: l
+IMEI: l
+Proveedor SIM: 
+Número SIM: ll
+Tipo de Vehículo: l
+Placa: l
+Modelo Vehículo: 
+
