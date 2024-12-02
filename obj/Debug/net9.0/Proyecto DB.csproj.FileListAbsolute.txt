@@ -13,3 +13,18 @@ C:\Users\Centro de Control I\Desktop\Ruta De Aprendizaje\Proyecto C#\Proyecto DB
 C:\Users\Centro de Control I\Desktop\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\obj\Debug\net9.0\Proyecto DB.pdb
 C:\Users\Centro de Control I\Desktop\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\obj\Debug\net9.0\Proyecto DB.genruntimeconfig.cache
 C:\Users\Centro de Control I\Desktop\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\obj\Debug\net9.0\ref\Proyecto DB.dll
+D:\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\bin\Debug\net9.0\Proyecto DB.exe
+D:\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\bin\Debug\net9.0\Proyecto DB.deps.json
+D:\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\bin\Debug\net9.0\Proyecto DB.runtimeconfig.json
+D:\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\bin\Debug\net9.0\Proyecto DB.dll
+D:\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\bin\Debug\net9.0\Proyecto DB.pdb
+D:\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\obj\Debug\net9.0\Proyecto DB.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\obj\Debug\net9.0\Proyecto DB.AssemblyInfoInputs.cache
+D:\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\obj\Debug\net9.0\Proyecto DB.AssemblyInfo.cs
+D:\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\obj\Debug\net9.0\Proyecto DB.csproj.CoreCompileInputs.cache
+D:\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\obj\Debug\net9.0\Proyecto DB.sourcelink.json
+D:\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\obj\Debug\net9.0\Proyecto DB.dll
+D:\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\obj\Debug\net9.0\refint\Proyecto DB.dll
+D:\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\obj\Debug\net9.0\Proyecto DB.pdb
+D:\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\obj\Debug\net9.0\Proyecto DB.genruntimeconfig.cache
+D:\Ruta De Aprendizaje\Proyecto C#\Proyecto DB\obj\Debug\net9.0\ref\Proyecto DB.dll

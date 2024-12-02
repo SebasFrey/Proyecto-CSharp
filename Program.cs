@@ -1,4 +1,5 @@
 ﻿using System; // Importa el espacio de nombres System, que contiene clases básicas como Console.
+using System.IO;
 
 namespace GPSRegistration // Define un espacio de nombres para organizar tu código.
 {
@@ -51,7 +52,7 @@ namespace GPSRegistration // Define un espacio de nombres para organizar tu cód
             Console.Write("IMEI: ");
             string imei = Console.ReadLine(); // Almacena el número IMEI del GPS.
 
-            Console.Write("Proveedor De Tarjeta SIM: ");
+            Console.Write("Proveedor De La Tarjeta SIM: ");
             string sim = Console.ReadLine(); // Almacena el proveedor de la tarjeta SIM.
 
             Console.Write("Numero De La Tarjeta SIM: ");
@@ -63,13 +64,19 @@ namespace GPSRegistration // Define un espacio de nombres para organizar tu cód
             Console.Write("Placa Del Vehiculo: ");
             string placa = Console.ReadLine(); // Almacena la placa del vehículo.
 
-            Console.Write("Modelo Del Vehiculo");
+            Console.Write("Modelo Del Vehiculo: ");
             string modeloVehi = Console.ReadLine(); // Almacena el modelo del vehículo.
 
             // Muestra un resumen de los datos registrados.
             Console.WriteLine($"\nGPS registrado:");
             Console.WriteLine($"Marca: {marca}"); // Muestra la marca del GPS.
             Console.WriteLine($"Modelo: {modelo}"); // Muestra el modelo del GPS.
+            Console.WriteLine($"IMEI: {imei}");
+            Console.WriteLine($"Proveedor De La Tarjeta SIM: {sim}");
+            Console.WriteLine($"Numero De La Tarjeta SIM: {simcard}");
+            Console.WriteLine($"Tipo De Vehiculo: {vehiculo}");
+            Console.WriteLine($"Placa Del Vehiculo: {placa}");
+            Console.WriteLine($"Modelo Del Vehiculo: {modeloVehi}");
             Console.WriteLine($"Vehiculo: {vehiculo}"); // Muestra el tipo de vehículo.
         }
     }
