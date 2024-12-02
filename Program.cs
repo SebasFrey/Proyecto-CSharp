@@ -66,10 +66,7 @@ namespace GPSRegistration // Define un espacio de nombres para organizar tu cód
             string modeloVehi = Console.ReadLine();
 
             // Crear el contenido a guardar.
-            string contenido = $"Marca: {marca}\nModelo: {modelo}\nIMEI: {imei}\n" +
-                               $"Proveedor SIM: {sim}\nNúmero SIM: {simcard}\n" +
-                               $"Tipo de Vehículo: {vehiculo}\nPlaca: {placa}\n" +
-                               $"Modelo Vehículo: {modeloVehi}\n";
+            string contenido = $"Marca: {marca}\nModelo: {modelo}\nIMEI: {imei}\n" + $"Proveedor SIM: {sim}\nNúmero SIM: {simcard}\n" + $"Tipo de Vehículo: {vehiculo}\nPlaca: {placa}\n" + $"Modelo Vehículo: {modeloVehi}\n";
 
             // Especificar la ruta del archivo.
             string filePath = "GPSsRegistrados.txt";
